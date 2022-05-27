@@ -18,7 +18,7 @@ Please input the ride information and submit by clicking the button.
 ride_date = st.date_input(
     "Date of Ride",
     datetime.datetime(2012, 10, 6, 12, 10, 20))
-#st.write('Your birthday is:', d)
+#st.write('Your birthday is:', d) asda
 
 ride_time = st.time_input('Time of Ride', datetime.datetime(2012, 10, 6, 12, 10, 20))
 
